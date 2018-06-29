@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	<!--导航栏开始-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+		    <div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+					
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="img/logo.png" class="logo"/>
+				</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="nav">
+		      	<ul class="nav navbar-nav text-center">
+			      	<li><a href="">网站首页</a></li>
+					<li><a href="">关于安邦</a></li>
+					<li><a href="">产品体系</a></li>
+					<li><a href="">咨询中心</a></li>
+					<li><a href="">成功案例</a></li>
+					<li><a href="">公司新闻</a></li>
+					<li><a href="">联系我们</a></li>
+		      	</ul>
+		    </div>
+		</div>
+	</nav>
+		<!--导航栏结束-->
+	<div class="container-fluid">
+		
+		<!--轮播图开始-->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/banner.jpg" class="img-responsive" alt="" />
+				</div>
+				<div class="swiper-slide">
+					<img src="img/banner.jpg" class="img-responsive" alt="" />
+				</div>
+				<div class="swiper-slide">
+					<img src="img/banner.jpg" class="img-responsive" alt="" />
+				</div>				
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<!--轮播图结束-->
+		<section class="swiper-container">
+			<!--简介开始-->
+			<div class="jianjie clearfix">
+				<h1 class="col-lg-offset-1 jian col-lg-2 text-center">
+					简介<br />
+					<small>brief introduction</small>
+				</h1>
+				<div class="col-lg-7">
+					<p> 
+						&ensp;&ensp;&ensp;&ensp;福建安邦家具制造有限公司始于2003年，前身为和盛达家具加工厂，
+						经过11年的沉淀成立品牌营运中心--安邦家具。至此，安邦家具形成及研发生产、卖场销售、装修
+						装饰、品牌运营为一体的综合性家居家具服务平台。安邦家具清晰定位为客户专属的全方位家具顾
+						问，严格把关设计、生产、销售和服务的每一个环节，为广大客户提供办公系列、学校系列、酒店
+						系列、居家系列的优质产品。
+			       </p>
+			       <p>
+			       		&ensp;&ensp;&ensp;&ensp;在市场化、自主化、合作化、透明化的四大原则的指导下安邦家具形
+			       		成了明确、公开、公正的晋升机制、分配机制等运营体系，为每一位加入安邦家具的合作伙伴提供
+			       		施展才华与能力的舞台和空间，在安邦家具没有打工1者，只有合作者，我们是与安邦家具一起合
+			       		作把客户照顾好，从而实现自己的梦想！
+			       	</p>
+			       	
+				</div>
+				
+			</div>
+			<div class="tu">
+	       		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6" >
+	       			<h2>高品质 好享受</h2>
+	       			<img src="img/tupian1.jpg" class="img-responsive"/>
+	       		</div>
+	       		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6" >
+	       			<h2>无边界沙发生活</h2>
+	       			<img src="img/tupian23.jpg" class="img-responsive"/>
+	       		</div>
+	       		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6" >
+	       			<h2>床垫硬 让你舒服</h2>
+	       			<img src="img/tupian3.jpg" class="img-responsive"/>
+	       		</div>
+	       		<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6" >
+	       			<h2>整体衣柜定制专家</h2>
+	       			<img src="img/tupian4.jpg" class="img-responsive"/>
+	       		</div>
+	       	</div>
+			<!--简介结束-->
+			
+		</section>
+		
+		
+	</div>
+
+    <script src="js/1.12.4-jq.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script>
+		var mySwiper =new Swiper('.swiper-container',{
+			autoplay:5000,
+			loop:true,
+			pagination:'.swiper-pagination',
+			paginationClickable:true,
+		
+		});
+    </script>
+</body>
+</html>
