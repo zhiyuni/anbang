@@ -1,0 +1,23 @@
+
+
+*{
+	/*padding: 0;*/
+}
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.img-tu{
+	width: 100%;
+	height: auto;
+}
+.cont {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fl{float: left;}.fr{float: right;}.clearfix{clear: both;}
