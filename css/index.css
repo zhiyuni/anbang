@@ -165,7 +165,8 @@
 
 /*页脚*/
 .yejiao{
-	background: black;
+	background: #2a2a2a;
+	color:#FFFFFF;
 }
 .footer-p{
 	margin-top: 30px;
@@ -208,10 +209,12 @@
 	    top: 25px;
 	}
 	.container-fluid .tu div h3{
-		font-size: 21px;
-		margin-left: 20px;
+		font-size: 18px;
+		/*margin-left: 20px;*/
 		}
-	
+	.jianjie h1{
+		font-size:36px;
+	}
 	
 }
 

@@ -7,8 +7,14 @@
 li{
 	list-style: none;
 }
-a{
+.nav-a,.nav-a:hover{
 	text-decoration: none;
+}
+.nav-a{
+	color:#ffffff;
+}
+.nav-a:hover{
+	color: #3d60f6;
 }
 .img-tu{
 	width: 100%;
